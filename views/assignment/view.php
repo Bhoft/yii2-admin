@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="col-lg-1">
         &nbsp;<br><br>
         <?php
-        echo Html::a('>>', '#', ['class' => 'btn btn-success', 'data-action' => 'assign']) . '<br>';
+        echo Html::a('>>', '#', ['class' => 'btn btn-success', 'data-action' => 'assign']) . '<br><br>';
         echo Html::a('<<', '#', ['class' => 'btn btn-success', 'data-action' => 'delete']) . '<br>';
         ?>
     </div>
